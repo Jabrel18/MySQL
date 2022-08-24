@@ -1,0 +1,4 @@
+INSERT INTO countries (COUNTRY_NAME) VALUE ('Italy');
+INSERT INTO countries (COUNTRY_NAME) VALUE ('India');
+INSERT INTO countries (COUNTRY_NAME) VALUE ('China');
+
