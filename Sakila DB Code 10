@@ -1,0 +1,2 @@
+SELECT round(AVG(length), 2)
+	FROM film;
