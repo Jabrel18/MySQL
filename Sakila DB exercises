@@ -1,12 +1,22 @@
-1. 2
-2. 3
-3. 200
-4. 64
-5. 52
-6. KILMER
-7.
-8.
-9.
-10.
-11.
-12.
+1. 	2
+2. 	3
+3. 	200
+4. 	64
+5. 	52
+6. 	KILMER
+7. 	Yes
+8.	INSERT INTO rental (rental_id) VALUE ('76');
+	  INSERT INTO rental (rental_date) VALUE ('2022-08-25 20:21:07');
+  	INSERT INTO rental (inventory_id) VALUE ('1');
+  	INSERT INTO rental (customer_id) VALUE ('1');
+  	INSERT INTO rental (return_date) VALUE ('2022-08-31 20:21:07');
+  	INSERT INTO rental (staff_id) VALUE ('1');
+  	INSERT INTO rental (last_update) VALUE ('2022-08-25 20:21:07');
+9.	08-31
+10.	115
+11.	
+12. 	Natural join insures that *all fields of the same name* must have the same value to be entered
+	in the resulting table. The tables should only have two fields in common: film_id and last_update.
+	The values for film_id are fine, but there are't any of the same values for the last_update field,
+	therefore the table should come back as empty.
+
