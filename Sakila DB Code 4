@@ -1,0 +1,4 @@
+  SELECT last_name
+	FROM actor
+	GORUP BY last_nAME) 
+	HAVING COUNT(last_name) = 1;
