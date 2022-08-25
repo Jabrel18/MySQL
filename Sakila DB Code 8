@@ -1,0 +1,7 @@
+INSERT INTO rental (rental_id) VALUE ('76');
+	INSERT INTO rental (rental_date) VALUE ('2022-08-25 20:21:07');
+	INSERT INTO rental (inventory_id) VALUE ('1');
+	INSERT INTO rental (customer_id) VALUE ('1');
+	INSERT INTO rental (return_date) VALUE ('2022-08-31 20:21:07');
+	INSERT INTO rental (staff_id) VALUE ('1');
+	INSERT INTO rental (last_update) VALUE ('2022-08-25 20:21:07');
