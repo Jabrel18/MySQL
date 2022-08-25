@@ -1,0 +1,8 @@
+SELECT category.category_id, NAME, AVG(length)
+	FROM film 
+	JOIN
+		film_category ON film.film_id = film_category.film_id
+	JOIN
+		category ON category.category_id = film_category.category_id
+	GROUP BY category_id
+	ORDER BY AVG(length) DESC;
