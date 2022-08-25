@@ -13,7 +13,7 @@
   	INSERT INTO rental (staff_id) VALUE ('1');
   	INSERT INTO rental (last_update) VALUE ('2022-08-25 20:21:07');
 9.	08-31
-10.	115
+10.	115.27
 11.	
 12. 	Natural join insures that *all fields of the same name* must have the same value to be entered
 	in the resulting table. The tables should only have two fields in common: film_id and last_update.
